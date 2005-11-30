@@ -2,7 +2,7 @@ Summary: e-smith dynamic dns client to update yi
 %define name e-smith-dynamicdns-yi
 Name: %{name}
 %define version 1.4.0
-%define release 01
+%define release 02
 Version: %{version}
 Release: %{release}
 Copyright: GPL
@@ -16,6 +16,9 @@ Requires: e-smith-base, e-smith-lib, e-smith >= 4.1
 AutoReqProv: no
 
 %changelog
+* Wed Nov 30 2005 Gordon Rowell <gordonr@gormand.com.au> 1.4.0-02
+- Bump release number only
+
 * Fri Oct 11 2002 Charlie Brady <charlieb@e-smith.com>
 - [1.4.0-01]
 - Rolling stable version number to 1.4.0
