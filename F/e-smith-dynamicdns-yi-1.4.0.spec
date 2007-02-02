@@ -6,7 +6,7 @@ Name: %{name}
 Version: %{version}
 Release: %smerelease %{release}
 Packager: %{_packager}
-Copyright: GPL
+License: GPL
 Group: Networking/Utilities
 Source: %{name}-%{version}.tar.gz
 BuildRoot: /var/tmp/%{name}-%{version}-%{release}-buildroot
